@@ -1,0 +1,69 @@
+.container {
+    border: 3px solid cornflowerblue;
+    box-shadow: rgba(6, 24, 44, 0.4) 0 0 0 2px, rgba(6, 24, 44, 0.65) 0 4px 6px -1px, rgba(255, 255, 255, 0.08) 0 1px 0 inset;
+    margin: 0 auto;
+    width: 1400px;
+    border-radius: 10px;
+}
+
+.post>h4 {
+    border-bottom: 1px solid #102b3e ;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.btn_comment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 150px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_comment:hover {
+    font-weight: 600;
+    background: grey;
+    box-shadow: rgba(255, 255, 255, 0.2) 0 0 0 1px inset, rgba(0, 0, 0, 0.9) 0 0 0 1px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    width: 1400px;
+    margin: 10px auto;
+}
+
+.div_comment {
+    border: 3px solid black;
+    box-shadow: rgba(6, 24, 44, 0.4) 0 0 0 2px, rgba(6, 24, 44, 0.65) 0 4px 6px -1px, rgba(255, 255, 255, 0.08) 0 1px 0 inset;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.div_comment>h4 {
+    border-bottom: 1px solid gray;
+}
+
+.btn_return {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 150px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: grey;
+
+}
+
+.btn_return:hover {
+    font-weight: 600;
+    background: gray;
+    color: wheat;
+    box-shadow: rgba(255, 255, 255, 0.2) 0 0 0 1px inset, rgba(0, 0, 0, 0.9) 0 0 0 1px;
+}
