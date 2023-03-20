@@ -33,6 +33,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
             <h2>${user1.name}</h2>
             `;
 
+
             const keyUser = 'key';
 
 

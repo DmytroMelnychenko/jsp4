@@ -24,6 +24,7 @@ for (const returnUser of returnUsers) {
         <h5>Bs: ${returnUser.e.company.bs}</h5>
     `;
 
+
     let btn_post = document.createElement('button');
     btn_post.classList.add('btn_post');
     btn_post.innerText = 'post of current user';

@@ -13,6 +13,7 @@ for (const containerElement of returnPost) {
     <h4>Body: ${containerElement.p.body}</h4>
     `;
 
+
     let btn_comment = document.createElement('button')
     btn_comment.classList.add('btn_comment')
     btn_comment.innerText = 'Комментарии';
